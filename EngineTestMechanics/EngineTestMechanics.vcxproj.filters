@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Middleware\gtest\src\gtest-all.cc" />
+    <ClCompile Include="MatrixTests.cpp">
+      <Filter>Math Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorTests.cpp">
+      <Filter>Math Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ClockTests.cpp">
+      <Filter>Timing Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestMain.cpp" />
+    <ClCompile Include="DebugProfilerTest.cpp">
+      <Filter>DebugTests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EngineTestMechanics.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Math Tests">
+      <UniqueIdentifier>{9637a9d6-c4b3-497c-b0ff-10486b3e7034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timing Tests">
+      <UniqueIdentifier>{8d88e3e1-c48d-414c-afb2-03a06bfdf7aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DebugTests">
+      <UniqueIdentifier>{99ee1fe9-313c-493c-ab8d-c77136d3e8b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

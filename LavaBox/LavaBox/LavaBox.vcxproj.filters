@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="LavaBox.cpp" />
+    <ClCompile Include="ControllerComponent.cpp">
+      <Filter>Key System</Filter>
+    </ClCompile>
+    <ClCompile Include="MyKeyMapper.cpp">
+      <Filter>Key System</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Refactored</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.moc.cpp">
+      <Filter>Refactored</Filter>
+    </ClCompile>
+    <ClCompile Include="myGLwindow.cpp">
+      <Filter>Monolithic</Filter>
+    </ClCompile>
+    <ClCompile Include="myGLwindow_moc.cpp">
+      <Filter>Monolithic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ControllerComponent.h">
+      <Filter>Key System</Filter>
+    </ClInclude>
+    <ClInclude Include="MyKeyMapper.h">
+      <Filter>Key System</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMenuChoice.h">
+      <Filter>Key System</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Refactored</Filter>
+    </ClInclude>
+    <ClInclude Include="myGLwindow.h">
+      <Filter>Monolithic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Key System">
+      <UniqueIdentifier>{5042e4c8-9862-417a-94e2-8f1c765b7860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Refactored">
+      <UniqueIdentifier>{70382227-1ae8-466d-8c6c-4745fcde0e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monolithic">
+      <UniqueIdentifier>{ddea19b1-a971-4c89-bed7-9ec9cc53ba2d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
